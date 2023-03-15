@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background-color: #202124;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+nav{
+    padding-right: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#access{
+    background-color: #8ab4f8;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+#access:hover{
+    background-color: #91b9fa;
+}
+.container{
+    height: 78.4%;
+    width: 100%;
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.searcher{
+    height: 18px;
+    padding: 12px;
+    background-color: #202124;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41%;
+    border: 10px;
+    gap: 10px;
+    border: 1px solid #616161;
+    border-radius: 40px;
+}
+.searcher input{
+    width: 90%;
+    height: 20px;
+    background-color: #202124;
+    border: 0;
+    color: whitesmoke;
+    font-size: 16px;
+    outline: none;
+}
+
+.bottons ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 10px;
+    
+    flex-wrap: wrap;
+}
+.bottons li a{
+    background-color: #303134;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: whitesmoke;
+}
+.bottons li a:hover{
+    border: 1px solid #616161;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    color: #9AA0A6;
+    font-size: 14px;
+}
+.fcontainer{
+    border-top: 1px solid #616161;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer p{
+    padding-left: 26px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+footer ul li a{
+    color: #9AA0A6;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+i{
+    color: #6C7075;
+}
+.fcontainer2{
+    padding-right: 20px;
+}
+
+.logomicro{
+    width: 14px;
+}
