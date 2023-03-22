@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 03</title>
+    <link rel="stylesheet" href="stylesreto03.css">
+    <script src="https://kit.fontawesome.com/8c582a6435.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                <li><a href=""></a>To do List</li>
+                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="caja">
+            <img src="images/snorlax2.png" alt="snorlax" id="imagen">
+            <h1>Nada para hacer</h1>
+        </div>
+        <div id="popup" class="activado">
+            <div id="container1" class="allcontainers">
+                <p id="parrafo">Nombre de la tarea</p>
+                <div id="inputandboton">
+                    <input type="text" class="inputs" placeholder="Ingresar Tarea" id="input1">
+                    <button id="resetear"><img src="images/closelogo.png" alt=""></button>
+                </div>
+            </div>
+            <div id="container2" class="allcontainers">
+                <p id="parrafo">Tipo de tarea</p>
+                <select>
+                    <option selected>Selecciona</option>
+                    <option value="personal">Personal</option>
+                    <option value="doméstica">Doméstica</option>
+                    <option value="entretenimiento">Entretenimiento</option>
+                    <option value="laboral">Laboral</option>
+                </select>
+            </div>
+            <div id="container3"class="allcontainers">
+                <label for="">Descripción de la Tarea</label>
+                <textarea name="" id="areadetexto" cols="25" rows="4" placeholder="Que tenemos que hacer?"></textarea>
+            </div>
+            <div id="container4" class="allcontainers">
+                <p id="parrafo">prioridad</p>
+            </div>
+            <div id="container5">
+                <button type="button" id="cancelar">Cancelar</button>
+                <button type="button" id="agregar">Agregar</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="containerboton">
+            <button type="button" id="boton">gaasdasd</button>
+        </div>
+    </footer>
+
+    <script src="reto03.js"></script>
+</body>
+</html>
