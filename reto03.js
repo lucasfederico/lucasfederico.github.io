@@ -76,6 +76,7 @@ agregar.addEventListener('click', function(){
             
             divElement.appendChild(buttonDeleter)
             listaDeTareas.appendChild(divElement);
+            listaDeTareas.classList.add('mostrar')
             divElement.classList.add('divTarea')
             // Prioridad de la tarea
             if (check1.checked == true) {
