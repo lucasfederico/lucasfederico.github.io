@@ -50,7 +50,7 @@ section{
 .divPopUp{
     font-size: 2em;
     color: #424242;
-    background-color: #FFEEC5;
+    background-color: white;
     width: 70%;
     height: 70%;
     display: flex;
@@ -67,18 +67,24 @@ section{
     
 
 }
-
+#input1{
+    
+    border: none;
+}
 .inputs{
     font-size: inherit;
-    border: none;
     outline: none;
     height: 30px;
 }
 .textarea{
     font-size: inherit;
+    
 }
+
 .inputs:focus{
     border-radius: 4px;
+    border: 2px solid #FFC107;
+    border-radius: 5%;
 }
 
 .allcontainers{
@@ -120,10 +126,10 @@ section{
 }
 /* Prioridad de tarea colores */
 input[type = "radio"]#check1{
-    accent-color: black;
+    accent-color: green;
 }
 input[type = "radio"]#check2{
-    accent-color: green;
+    accent-color: yellow;
 }
 input[type = "radio"]#check3{
     accent-color: purple;
@@ -183,7 +189,6 @@ footer{
 
 /* Nueva Tarea */
 .divTarea{
-    margin-top: 10px;
     background-color: whitesmoke;
     font-size: 1.2em;
     display: flex;
@@ -195,10 +200,7 @@ footer{
     border-radius: 10px;
     box-shadow: -5px 10px 2px 0 rgba(0, 0, 0, 0.6);
 }
-.divTarea img{
-    width: 50px;
-    height: 50%;
-}
+
 .divTarea h1{
     color: #303F9F;
     margin: 0;
@@ -210,22 +212,46 @@ footer{
 .divTarea p{
     color: #757575;
 }
-.cursorPointer{
-    cursor: pointer;
-}
 
-/* Colores Borde derecho */
-.bordeBlack{
-    border-right: 4px solid black;
+/* Colores Fondo tipo de tarea */
+.fondoGreen{
+    background-color: #00c853;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
 }
-.bordeGreen{
-    border-right: 4px solid green;
+.fondoYellow{
+    background-color: #ffd600;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
 }
-.bordePurple{
-    border-right: 4px solid purple;
+.fondoPurple{
+    background-color: #6200ea;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
 }
-.bordeRed{
-    border-right: 4px solid red;
+.fondoRed{
+    background-color: #d50000;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Clase Boton borrar Tarea */
+.deleteTarea{
+    cursor: pointer;
+    width: 30px;    
+    justify-self: flex-end;
+    align-self: flex-start;
 }
 
 
