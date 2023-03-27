@@ -47,6 +47,7 @@ agregar.addEventListener('click', function(){
 
             let divElement = document.createElement('div');
             let divElement2 = document.createElement('div')
+            let divImagen = document.createElement('div')
             let headingElement = document.createElement('h1');
             let paragraphElement = document.createElement('p');
 
@@ -61,24 +62,24 @@ agregar.addEventListener('click', function(){
             if (tipoDeTarea.value == 'Personal' ){
                 
                 imagenTarea.src = 'images/tipos/user.png'
-                divElement.appendChild(imagenTarea)
+                divImagen.appendChild(imagenTarea)
             }
             else if (tipoDeTarea.value == 'Doméstica'){
                 
                 imagenTarea.src ='images/tipos/home.png'
-                divElement.appendChild(imagenTarea)
+                divImagen.appendChild(imagenTarea)
             }
             else if (tipoDeTarea.value == 'Entretenimiento'){
                 
                 imagenTarea.src ='images/tipos/joystick.png'
-                divElement.appendChild(imagenTarea)
+                divImagen.appendChild(imagenTarea)
             }
             else if (tipoDeTarea.value == 'Laboral'){
                 
                 imagenTarea.src ='images/tipos/briefcase.png'
-                divElement.appendChild(imagenTarea)
+                divImagen.appendChild(imagenTarea)
             }
-            
+            imagenTarea.classList.add('divImagen')
             // var miImagen = new Image();
 
             // // Establecer la ruta de la imagen
@@ -90,7 +91,8 @@ agregar.addEventListener('click', function(){
             
             divElement2.appendChild(headingElement);
             divElement2.appendChild(paragraphElement);
-            
+            divElement2.classList.add('divDescripcion')
+            divElement.appendChild(divImagen)
             divElement.appendChild(divElement2)
             
             divElement.appendChild(buttonDeleter)
@@ -99,16 +101,16 @@ agregar.addEventListener('click', function(){
             divElement.classList.add('divTarea')
             // Prioridad de la tarea
             if (check1.checked == true) {
-                imagenTarea.classList.add('fondoGreen')
+                divImagen.classList.add('fondoGreen')
             }
             else if (check2.checked == true){
-                imagenTarea.classList.add('fondoYellow')
+                divImagen.classList.add('fondoYellow')
             }
             else if (check3.checked == true){
-                imagenTarea.classList.add('fondoPurple')
+                divImagen.classList.add('fondoPurple')
             }
             else if (check4.checked == true){
-                imagenTarea.classList.add('fondoRed')
+                divImagen.classList.add('fondoRed')
             }
             input1.value = ''
             areaDeTexto.value = ''

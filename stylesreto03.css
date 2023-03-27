@@ -189,61 +189,77 @@ footer{
 
 /* Nueva Tarea */
 .divTarea{
+    margin-top: 20px;
     background-color: whitesmoke;
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    height: 20%;
+    width: 90%;
+    height: 15%;
     border: solid 1px gray;
     border-radius: 10px;
     box-shadow: -5px 10px 2px 0 rgba(0, 0, 0, 0.6);
 }
 
+/* Div Tarea y Descripcion de la tarea */
+.divDescripcion{
+    height: 100%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+}
 .divTarea h1{
     color: #303F9F;
     margin: 0;
-    padding-bottom: 5%;
 }
 .divTarea h4{
     margin: 0;
 }
 .divTarea p{
     color: #757575;
+    margin: 0;
 }
-
+.divImagen{
+    width: 50%;
+}
 /* Colores Fondo tipo de tarea */
 .fondoGreen{
+    display: flex;
+    justify-content: center;
     background-color: #00c853;
     box-sizing: border-box;
-    width: 100px;
+    width: 20%;
     height: 100%;
-    padding: 20px;
     border-radius: 10px;
 }
 .fondoYellow{
+    display: flex;
+    justify-content: center;
     background-color: #ffd600;
     box-sizing: border-box;
-    width: 100px;
+    width: 20%;
     height: 100%;
-    padding: 20px;
     border-radius: 10px;
 }
 .fondoPurple{
+    display: flex;
+    justify-content: center;
     background-color: #6200ea;
     box-sizing: border-box;
-    width: 100px;
+    width: 20%;
     height: 100%;
-    padding: 20px;
     border-radius: 10px;
 }
 .fondoRed{
+    display: flex;
+    justify-content: center;    
     background-color: #d50000;
     box-sizing: border-box;
-    width: 100px;
+    width: 20%;
     height: 100%;
-    padding: 20px;
     border-radius: 10px;
 }
 /* Clase Boton borrar Tarea */
