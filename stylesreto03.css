@@ -231,7 +231,7 @@ footer{
     justify-content: center;
     background-color: #00c853;
     box-sizing: border-box;
-    width: 20%;
+    width: 30%;
     height: 100%;
     border-radius: 10px;
 }
@@ -240,7 +240,7 @@ footer{
     justify-content: center;
     background-color: #ffd600;
     box-sizing: border-box;
-    width: 20%;
+    width: 30%;
     height: 100%;
     border-radius: 10px;
 }
@@ -249,7 +249,7 @@ footer{
     justify-content: center;
     background-color: #6200ea;
     box-sizing: border-box;
-    width: 20%;
+    width: 30%;
     height: 100%;
     border-radius: 10px;
 }
@@ -258,7 +258,7 @@ footer{
     justify-content: center;    
     background-color: #d50000;
     box-sizing: border-box;
-    width: 20%;
+    width: 30%;
     height: 100%;
     border-radius: 10px;
 }
