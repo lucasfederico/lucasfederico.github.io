@@ -1,5 +1,5 @@
 body{
-    background-color: #FFF;
+    background-color: #fff;
     font-size: 10px;
     margin: 0;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ section{
     position: absolute;
     border: 1px solid gray;
     border-radius: 2%;
-    padding: 0px 20px;
+    padding: 10px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
     0 6px 20px 0 rgba(0, 0, 0, 0.5);
     display: none;
@@ -190,7 +190,7 @@ footer{
 /* Nueva Tarea */
 .divTarea{
     margin-top: 20px;
-    background-color: whitesmoke;
+    background-color: #eeeeee;
     font-size: 1.2em;
     display: flex;
     align-items: center;
@@ -212,7 +212,7 @@ footer{
     padding: 0;
 }
 .divTarea h1{
-    color: #303F9F;
+    color: #212121;
     margin: 0;
 }
 .divTarea h4{
@@ -224,12 +224,14 @@ footer{
 }
 .divImagen{
     width: 50%;
+    height: 50%;
 }
 /* Colores Fondo tipo de tarea */
 .fondoGreen{
     display: flex;
     justify-content: center;
-    background-color: #00c853;
+    align-items: center;
+    border-left: #00c853 10px solid;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
@@ -238,7 +240,8 @@ footer{
 .fondoYellow{
     display: flex;
     justify-content: center;
-    background-color: #ffd600;
+    align-items: center;
+    border-left: #FFC107 10px solid;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
@@ -247,7 +250,8 @@ footer{
 .fondoPurple{
     display: flex;
     justify-content: center;
-    background-color: #6200ea;
+    align-items: center;
+    border-left: #6200ea 10px solid;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
@@ -255,8 +259,9 @@ footer{
 }
 .fondoRed{
     display: flex;
-    justify-content: center;    
-    background-color: #d50000;
+    justify-content: center;   
+    align-items: center;
+    border-left: 10px solid red;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
