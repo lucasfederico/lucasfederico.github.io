@@ -43,7 +43,7 @@ resetear.addEventListener('click', function(){
 agregar.addEventListener('click', function(){
 
     divPrincipal.classList.add('ocultar')
-    if (input1.value != '' && areaDeTexto.value != '' && tipoDeTarea.value != 'Elegir Tipo' && (check1.checked == true || check2.checked ==true || check3.checked == true || check4.checked == true)){
+    if (input1.value != '' && areaDeTexto.value != '' && tipoDeTarea.value != 'Elegir Tipo' && (check1.checked || check2.checked || check3.checked || check4.checked )){
 
             let divElement = document.createElement('div');
             let divElement2 = document.createElement('div')
@@ -100,16 +100,16 @@ agregar.addEventListener('click', function(){
             listaDeTareas.classList.add('mostrar')
             divElement.classList.add('divTarea')
             // Prioridad de la tarea
-            if (check1.checked == true) {
+            if (check1.checked ) {
                 divImagen.classList.add('fondoGreen')
             }
-            else if (check2.checked == true){
+            else if (check2.checked ){
                 divImagen.classList.add('fondoYellow')
             }
-            else if (check3.checked == true){
+            else if (check3.checked ){
                 divImagen.classList.add('fondoPurple')
             }
-            else if (check4.checked == true){
+            else if (check4.checked ){
                 divImagen.classList.add('fondoRed')
             }
             input1.value = ''
