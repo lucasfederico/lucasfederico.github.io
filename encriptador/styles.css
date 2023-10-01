@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F5FC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+.contenedor-ingresar-texto{
+    color: #0A3871;
+    height: 65vh;
+    width: 100%;
+}
+.contenedor-ingresar-texto textarea{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+.contenedor-ingresar-texto textarea:focus{
+    outline: none;
+}
+.contenedor-ingresar-texto textarea::placeholder{
+    color: #0A3871;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 25px;
+}
+.contenedor-botones{
+    width: 100%;
+}.contenedor-botones img{
+    width: 10px;
+}
+.contenedor-botones p{
+    display: inline-block;
+    font-size: 10px;
+}
+.botones{
+    text-align: center;
+}
+.botones button:hover{
+    cursor: pointer;
+    transition: 300ms;
+}
+.botones button:first-child{
+    padding: 15px 80px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+}
+.botones button:first-child:hover{
+    padding: 20px 85px;
+}
+.botones button:nth-child(2):hover{
+padding: 20px 85px;
+}
+.botones button:nth-child(2){
+    padding: 15px 80px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+/* Contenedor que muestra el texto codificado */
+.contenedor-mostrar-texto{
+    background-color: white;
+    width: 400px;
+    height: 90vh;
+    text-align: center;
+    border-radius: 25px;
+}
+.showText{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+.showText p{
+    color: #0A3871;
+    font-size: 25px;
+}
+.contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-avisos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+}
+.copiar{
+    margin-top: 5em;
+    padding: 1em 6em;
+    background-color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 1em;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .main{
+        flex-direction: column;
+        padding: 1em 2em;
+        gap: 30px;
+    }
+    
+    textarea{
+        width: 90%;
+        height: 100%;
+    }
+    
+    .contenedor-botones{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contenedor-mostrar-texto{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contenedor-imagen img{
+        display: none;
+    }
+    .contenedor-avisos{
+        display: flex;
+    }
+    .showText{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .copiar{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .main{
+        flex-direction: column;
+        gap: 30px;
+        padding: 0.5em 1em;
+    }
+    textarea{
+        width: 90%;
+        height: 100%;
+    }
+    .contenedor-ingresar-texto{
+        width: 100%;
+        height: 40vh;
+    }
+    .contenedor-botones{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .botones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .contenedor-mostrar-texto{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contenedor-imagen img{
+        display: none;
+    }
+    .contenedor-avisos{
+        display: flex;
+    }
+    .showText{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .copiar{
+        margin-top: 0;
+    }
+}
+
