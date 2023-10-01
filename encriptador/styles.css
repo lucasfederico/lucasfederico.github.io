@@ -61,7 +61,7 @@ body{
 padding: 20px 85px;
 }
 .botones button:nth-child(2){
-    padding: 15px 80px;
+    padding: 15px 69px;
     background-color: #D8DFE8;
     color: #0A3871;
     border: none;
@@ -173,7 +173,7 @@ padding: 20px 85px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
     .contenedor-mostrar-texto{
         width: 100%;
