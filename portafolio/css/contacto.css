@@ -1,0 +1,17 @@
+.formulario{
+    background-color: #EAF2FD;
+}
+.telefono-img{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    /* Estilos para tablets */
+    .formulario{
+        padding: 0 7em;
+    }
+    .telefono-img{
+        display: block;
+        height: 420px;
+    }
+  }

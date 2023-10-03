@@ -1,0 +1,9 @@
+.sobre-mi{
+    background-color: #EAF2FD;
+    ;
+}
+@media screen and (min-width: 1024px) {
+    .sobre-mi{
+        padding: 0 40px;
+    }
+  }
