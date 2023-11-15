@@ -4,17 +4,13 @@ const asunto = document.querySelector('#asunto');
 const mensaje = document.querySelector('#mensaje');
 const enviar = document.querySelector('#enviar');
 
-const validacion = () => {
-    if (nombre.value != '' && email.value != '' && asunto.value != '' && mensaje != ''){
+// const validacion = () => {
+//     if (nombre.value != '' && email.value != '' && asunto.value != '' && mensaje != ''){
         
-    }
-    else{
-        alert('Complete los campos por favor')
-    }
-    nombre.value = ''
-    email.value = ''
-    asunto.value = ''
-    mensaje.value = ''
-}
+//     }
+//     else{
+//         alert('Complete los campos por favor')
+//     }
+// }
 
-enviar.addEventListener('click', validacion)
+// enviar.addEventListener('click', validacion)
