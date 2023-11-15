@@ -11,6 +11,10 @@ const validacion = () => {
     else{
         alert('Complete los campos por favor')
     }
+    nombre.value = ''
+    email.value = ''
+    asunto.value = ''
+    mensaje.value = ''
 }
 
 enviar.addEventListener('click', validacion)
